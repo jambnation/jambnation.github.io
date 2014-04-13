@@ -336,12 +336,13 @@ hr {
     background: url(../tilesets/32.jpg); 
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-64 .tile-inner {
-    'color: #f9f6f2;
+    color: #f9f6f2;
+    font-size: 5px;
     background: #f65e3b;    
     background: url(../tilesets/64.jpg); 
-    'box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-128 .tile-inner {
-    color: #f9f6f2;
+    color: #000000;
     font-size: 5px; 
     background: url(../tilesets/128.jpg); 
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
@@ -487,6 +488,16 @@ hr {
 .above-game:after {
   content: "";
   display: block;
+  clear: both; }
+
+.display-coordinates-container {
+  content: "";
+  display: block;
+  color: magenta;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 32px;
   clear: both; }
 
 .game-intro {
