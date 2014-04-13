@@ -490,16 +490,6 @@ hr {
   display: block;
   clear: both; }
 
-.display-coordinates-container {
-  content: "";
-  display: block;
-  color: magenta;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 10px;
-  font-size: 32px;
-  clear: both; }
-
 .game-intro {
   float: left;
   line-height: 42px;
