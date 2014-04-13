@@ -336,23 +336,24 @@ hr {
     background: url(../tilesets/32.jpg); 
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-64 .tile-inner {
-  #img.source-image {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}  color: #f9f6f2;
+    #img.source-image {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    color: #f9f6f2;
     font-size: 5px; 
     background: #f65e3b;    
     background: url(../tilesets/64.jpg); 
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-128 .tile-inner {
    #img.source-image {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-} color: #f9f6f2;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #f9f6f2;
     font-size: 5px; 
     background: url(../tilesets/128.jpg); 
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
