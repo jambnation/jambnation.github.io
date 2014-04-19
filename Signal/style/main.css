@@ -306,8 +306,6 @@ hr {
   -moz-transition-property: -moz-transform;
   transition-property: transform; }
   .tile .tile-inner {
-    max-width: auto;
-    max-height: auto;
     border-radius: 3px;
     background: #eee4da;
     text-align: center;
@@ -646,6 +644,7 @@ hr {
   .tile, .tile .tile-inner {
     width: 58px;
     height: 58px;
+    background-size: 100%;
     line-height: 67.5px; }
   .tile.tile-position-1-1 {
     -webkit-transform: translate(0px, 0px);
