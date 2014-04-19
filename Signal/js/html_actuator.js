@@ -126,7 +126,7 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 
 HTMLActuator.prototype.message = function (won) {
   var type    = won ? "game-won" : "game-over";
-  var message = "N33°52.503 W117°44.144"// won ? "You win!" : "Game over!";
+  var message = won ? "You win!" : "Game over!";
 
   this.messageContainer.classList.add(type);
   this.messageContainer.getElementsByTagName("p")[0].textContent = message;
