@@ -343,10 +343,12 @@ hr {
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-128 .tile-inner {
     color: gray;
-    font-size: 45px; 
+    font-size: 25px; 
     background-size: 100%;
     background-image: url(../tilesets/128.jpg); 
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+   .tile.tile-128 .tile-inner {
+    font-size: 25px; }  
   .tile.tile-256 .tile-inner {
     color: gray;
     background-size: 100%;
